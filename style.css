@@ -1,12 +1,14 @@
+
 @font-face {
-  font-family: calibri_regular;
-   src: url(./calibri.ttf);
-}
+    font-family: calibri_regular;
+    src: url(./calibri.ttf);
+  }
+
 @font-face {
-  font-family: calibri_bold;
-   src: url(./calibri.ttf);
-  font-weight: bold;
-}
+    font-family: calibri_bold;
+    src: url(./calibri.ttf);
+    font-weight: bold;
+  }
 
 * {
   margin: 0;
