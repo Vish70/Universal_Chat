@@ -260,7 +260,7 @@
                                     <div class="textarea_div">
                                         <textarea name id
                                             placeholder="Add comment"></textarea>
-                                        <button><img src="/img/green_arrow.png"
+                                        <button><img src="img\green_arrow.png"
                                                 alt></button>
                                     </div>
 
@@ -494,15 +494,41 @@
             </section>
 
         </section>
-
+        <script src="tinymce\js\tinymce\tinymce.min.js"></script>
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
             integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <script src="/tinymce/js/tinymce/tinymce.min.js"></script>
+     
 
         <script>
+
+
+            
+tinymce.init({
+    selector: 'textarea#default',
+    width: 1000,
+    height: 300,
+    plugins:[
+        'advlist', 'autolink', 'link', 'image', 'lists', 'charmap', 'preview', 'anchor', 'pagebreak',
+        'searchreplace', 'wordcount', 'visualblocks', 'code', 'fullscreen', 'insertdatetime', 'media', 
+        'table', 'emoticons', 'template', 'codesample'
+    ],
+    toolbar: 'undo redo | styles | bold italic underline | alignleft aligncenter alignright alignjustify |' + 
+    'bullist numlist outdent indent | link image | print preview media fullscreen | ' +
+    'forecolor backcolor emoticons',
+    menu: {
+        favs: {title: 'menu', items: 'code visualaid | searchreplace | emoticons'}
+    },
+    menubar: 'favs file edit view insert format tools table',
+    content_style: 'body{font-family:Helvetica,Arial,sans-serif; font-size:16px}'
+});
+
+
+
+
+
 
             $('.filter_btn').click(function(){
                 if( $('.filer_content').hasClass('active')){
@@ -532,26 +558,6 @@
                $('.left_sticky').toggleClass('active');
             })
            
-
-
-            tinymce.init({
-    selector: 'textarea#default',
-    width: 1000,
-    height: 300,
-    plugins:[
-        'advlist', 'autolink', 'link', 'image', 'lists', 'charmap', 'preview', 'anchor', 'pagebreak',
-        'searchreplace', 'wordcount', 'visualblocks', 'code', 'fullscreen', 'insertdatetime', 'media', 
-        'table', 'emoticons', 'template', 'codesample'
-    ],
-    toolbar: 'undo redo | styles | bold italic underline | alignleft aligncenter alignright alignjustify |' + 
-    'bullist numlist outdent indent | link image | print preview media fullscreen | ' +
-    'forecolor backcolor emoticons',
-    menu: {
-        favs: {title: 'menu', items: 'code visualaid | searchreplace | emoticons'}
-    },
-    menubar: 'favs file edit view insert format tools table',
-    content_style: 'body{font-family:Helvetica,Arial,sans-serif; font-size:16px}'
-});
 
 
 
