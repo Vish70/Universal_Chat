@@ -1286,7 +1286,7 @@ font-weight: 600;
       min-height: calc(100vh - 70px);
       overflow: auto;
       background: white;
-      top: 57px;
+       top: 56px;
       border-right: 1px solid var(--light_bordercolor);
   }
   
