@@ -15,7 +15,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: calibri_regular !important;
-    letter-spacing:0.3px;
+    letter-spacing:0.1px;
     transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
