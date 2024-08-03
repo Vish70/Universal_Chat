@@ -481,7 +481,7 @@ nav i {
   margin: auto;
   position: absolute;
   top: 35px;
-  right: 120px;
+  right:0;
 }
 
 .filer_content form .radio_btn {
@@ -518,7 +518,7 @@ nav i {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 190px;
+  width:100%;
   margin: auto;
   grid-gap: 1rem;
   background-color: #fff;
@@ -822,7 +822,18 @@ nav i {
   border-bottom: 1px solid var(--light_bordercolor);
 }
 
-@media (max-width: 880px) {
+
+@media (max-width:940px){
+  .filer_content {
+    margin: auto;
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    min-width: 190px;
+}
+}
+
+@media (max-width: 881px) {
   .center_content {
     margin-top: 70px;
     display: flex;
