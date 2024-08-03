@@ -15,7 +15,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: calibri_regular !important;
-    letter-spacing:0.3px;
+    letter-spacing:0.2px;
     transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -1024,6 +1024,12 @@ font-weight: 600;
     display:none;
   } */
 
+  .tox-tinymce-aux{
+    position: fixed !important;
+    bottom:0;
+    z-index:1000;
+  }
+
   .tox-promotion,.tox-statusbar__branding{
     display:none;
   } 
@@ -1162,6 +1168,7 @@ font-weight: 600;
       display: flex;
       flex-direction: column;
       grid-gap:1rem; 
+      z-index:2000;
   }
   
   .right_contetn h2{
