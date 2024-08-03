@@ -1,11 +1,11 @@
 @font-face {
     font-family: calibri_regular;
-    src: url(calibri.ttf);
+    src: url(./calibri.ttf);
   }
 
 @font-face {
     font-family: calibri_bold;
-    src: url(calibri.ttf);
+    src: url(./calibri.ttf);
     font-weight: bold;
   }
   
@@ -40,14 +40,19 @@
       font-size:16px;
       cursor: pointer;
   }
+
   
+  small{
+    font-size:14px;
+  }
+
   .navbar {
     width: 100%;
     border-top: 3px solid var(--border_bluecolor);
     position: fixed;
     top: 0;
     background: white;
-    z-index: 2;
+    z-index:100;
   }
   
   nav {
@@ -728,6 +733,7 @@
     -o-border-radius:5px;
     outline:none;
     height:35px;
+    font-size:16px;
 }
 
 .textarea_div textarea::placeholder{
@@ -868,9 +874,18 @@ font-weight: 600;
     padding-bottom:1rem;
   }
 
-  .center_content i{
-    font-size:12px !important;
+  .center_content .ri-user-fill{
+    font-size:12px;
   }
+
+  .center_content .star_green{
+    font-size:15px;
+  }
+
+  .center_content .star_light{
+    font-size:15px;
+  }
+ 
 
   .like{
     cursor: pointer;
@@ -960,7 +975,7 @@ font-weight: 600;
   }
 
   .chat_sec li p{
-    font-size:14px;
+    font-size:15px;
     text-align: justify;
     color:var(--text_greycolor);
   }
@@ -998,13 +1013,13 @@ font-weight: 600;
     resize:vertical;
     min-height:300px;
   }
-  .tox-silver-sink{
+/* .tox-silver-sink{
     display:none;
-  }
+  } */
 
   .tox-promotion,.tox-statusbar__branding{
     display:none;
-  }
+  } 
 
   .tox-edit-area,.tox-sidebar-wrap{
     outline:none;
@@ -1125,6 +1140,7 @@ font-weight: 600;
     white-space:nowrap;
     display: inline-block;
     text-overflow:ellipsis;
+    font-size:15px;
   }
   
   .right_content_col2 p{
@@ -1195,7 +1211,6 @@ font-weight: 600;
       grid-gap:.6rem;
       align-items: flex-start;
       color:#333333;
-      font-weight: 600;
       font-size:14px;
   }
   
@@ -1287,7 +1302,7 @@ font-weight: 600;
       min-height: calc(100vh - 70px);
       overflow: auto;
       background: white;
-      top: 57px;
+      top: 56px;
       border-right: 1px solid var(--light_bordercolor);
   }
   

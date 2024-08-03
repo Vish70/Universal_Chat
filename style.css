@@ -1,10 +1,10 @@
 @font-face {
   font-family: calibri_regular;
-  src: url(/calibri.ttf);
+  src: url(./calibri.ttf);
 }
 @font-face {
   font-family: calibri_bold;
-  src: url(/calibri.ttf);
+  src: url(./calibri.ttf);
   font-weight: bold;
 }
 
@@ -38,6 +38,10 @@
 i{
     font-size:16px !important;
     cursor: pointer;
+}
+
+small{
+  font-size:14px;
 }
 
 .navbar {
@@ -711,6 +715,7 @@ nav i {
 .right_content_col p {
   min-height:16px;
   width:120px;
+  font-size:15px;
   overflow: hidden;
   white-space:nowrap;
   display: inline-block;
@@ -785,7 +790,6 @@ nav i {
     grid-gap:.6rem;
     align-items: flex-start;
     color:#333333;
-    font-weight: 600;
     font-size:14px;
 }
 
@@ -877,7 +881,7 @@ nav i {
     min-height: calc(100vh - 70px);
     overflow: auto;
     background: white;
-    top: 57px;
+    top: 56px;
     border-right: 1px solid var(--light_bordercolor);
 }
 
