@@ -33,7 +33,8 @@
     --light_bluecolor: #e8eefa;
     --dark_greencolor: #60b847;
     --light_greencolor: #e6fae6;
-    --light_bordercolor: #b3b3b3;
+    --light_bordercolor: #e6e6e6;
+    /* --light_bordercolor: #b3b3b3; */
   }
   
   i{
@@ -59,7 +60,7 @@
     position: fixed;
     top: 0;
     background: white;
-    z-index:100;
+    z-index: 10000;
   }
   
   nav {
@@ -105,7 +106,7 @@
   
   .burger{
     display: none;
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .search {
@@ -878,7 +879,7 @@ font-weight: 600;
   }
 
   .main_header_content{
-    border-bottom:1px solid var(--i_lightgreycolor);
+    border-bottom:1px solid var(--light_bordercolor);
     padding-bottom:1rem;
   }
 
@@ -977,8 +978,8 @@ font-weight: 600;
     flex-direction: column;
     grid-gap: .5rem;
     padding:16px 0;
-    border-top:1px solid var(--i_lightgreycolor);
-    border-bottom:1px solid var(--i_lightgreycolor);
+    border-top:1px solid var(--light_bordercolor);
+    border-bottom:1px solid var(--light_bordercolor);
     margin:1rem 0;
   }
 
@@ -1005,7 +1006,7 @@ font-weight: 600;
   .textarea_div_2 textarea{
     width:100%;
     resize:vertical;
-    border:1px solid var(--i_lightgreycolor);
+    border:1px solid var(--light_bordercolor);
     min-height:300px;
     overflow: hidden;
     outline:none;
