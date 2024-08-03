@@ -111,6 +111,7 @@ nav a .img1{
 
 .burger{
   display: none;
+  font-size: 18px;
 }
 
 .search {
@@ -440,16 +441,17 @@ nav i {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  width:100%;
 }
 
-.filetr a {
+.filetr {
   display: flex;
   align-items: end;
   justify-content: flex-end;
   width: 100%;
 }
 
-.filetr a h2 {
+.filetr h2 {
   width: max-content;
   margin-bottom: 0.6rem;
   background-color: var(--light_bluecolor);
@@ -462,13 +464,14 @@ nav i {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   font-weight:bold;
+  cursor: pointer;
 }
 
-.filetr a span i {
+.filetr span i {
   color: var(--text_bluecolor);
 }
 
-.filetr a span {
+.filetr span {
   margin-right: 0.6rem;
 }
 
@@ -533,6 +536,7 @@ nav i {
 .filer_content{
     display:none;
 }
+
 
 .filter_overlay{
     width:100%;
@@ -609,7 +613,7 @@ nav i {
 .user_details {
   display: flex;
   justify-content: flex-start;
-  grid-gap: 1.1rem;
+  grid-gap:.5rem;
   align-items: center;
 }
 
