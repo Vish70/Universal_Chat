@@ -609,7 +609,7 @@ nav i {
 .user_details {
   display: flex;
   justify-content: flex-start;
-  grid-gap: 1.1rem;
+ grid-gap:.5rem;
   align-items: center;
 }
 
