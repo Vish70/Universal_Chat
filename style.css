@@ -966,7 +966,7 @@ nav a .img1{
 
 .buttons_main_header {
 width: 100%;
-      border: 1px solid  var(--light_bluecolor);
+      border: 1px solid var(--light_bordercolor);
     border-radius: 5px;
     padding: 1px;
 }
