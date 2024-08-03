@@ -602,11 +602,11 @@ nav i {
 }
 
 
-.star_light i{
+.star_light{
     color:var(--i_lightgreycolor) !important;
 }
 
-.star_green i{
+.star_green{
     color:var(--dark_greencolor) !important;
 }
 
